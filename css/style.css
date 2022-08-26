@@ -1,0 +1,39 @@
+:root {
+  --icon-theme-background: #002D4D;
+  --icon-theme-transparent: transparent;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: center;
+
+  background-color: #477BFF;
+
+  padding-left: 75px;
+  padding-right: 75px;
+  height: 90px;
+}
+
+header h1.title {
+  font-size: 2rem;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+header div.theme-key {
+  height: 32px;
+  width: 32;
+  border-radius: 50%;
+}
+
+header div.theme-key label {
+  height: 32px;
+  border-radius: 50%;
+  border-right-width: 16px;
+  border-left-width: 16px;
+
+  border-right-color: var(--icon-theme-transparent);
+  border-left-color: var(--icon-theme-background);
+}
